@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.mbskin{width: 96%; max-width: 768px; margin: 0 auto; margin-top: 80px; margin-bottom: 80px;}
+.mbskin .login_wrap_box{display: flex; align-items: center;}
+.mbskin .login_wrap_box label{min-width: 100px; text-align: left;}
+.mbskin .login_wrap_box input{padding-left: 10px; border: 1px solid #ddd;}
+.mbskin #login_fs h2{font-size: 2.4rem; margin-bottom: 40px;}
+#login_password_lost{border: none; color: #676e70;}
+.mbskin .btn_submit{font-size: 18px; margin-top: 20px !important;}
+
+.btn_submit{background: #222;}
+.btn_submit:hover{background: #555;}
+
+.mbskin_box{display: flex; justify-content: space-between; flex-direction: row-reverse;}
+.mb_log_cate{width: 40%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 35px;  background: #f6f6f6;}
+.mb_log_form{width: 60%;}
+
+.mb_log_cate span{font-size: 15px; color: #555; margin-bottom: 18px;}
+.mb_log_cate .join{padding: 15px 0px; border-radius: 3px; width: 100%; background: #52616b; color: #fff;}
+
+#sns_login{border-top: 0px !important;}
+#mb_login #sns_login{display: flex; justify-content: center;}
+#mb_login #sns_login .txt{display: none;}
+#mb_login #sns_login .sns-icon{width: initial !important; background-color: initial !important; margin: 0px !important; border-bottom: 0px !important;}
+#sns_login .sns-google .ico{border: 1px solid #ddd;}
+
+.register{width: 96% !important; max-width: 1200px; margin: 0 auto; padding: 80px 0px;}
+
+#fregister p{height: initial; line-height: initial; min-height: 50px; display: flex; justify-content: center; align-items: center; padding: 0px 15px; font-size: 1.8rem;}
+#sns_register{display: flex; align-items:center;}
+#fregister_chkall{background: #c9d6df;}
+.fregister_agree input[type="checkbox"] + label{
+  color: #222;
+  font-weight: bold;
+}
+
+.register h3{font-size: 3.0rem; text-align: center; margin-bottom: 80px;}
+.register .register_wrap{display: flex; margin-bottom: 40px; justify-content: center;}
+.register .register_wrap li{width: 33.33333%; display: flex; flex-direction: column; align-items:center; padding: 70px 0px; background: #f6f6f6;}
+.register .register_wrap li.active{background: #c9d6df}
+.register .register_wrap li i{font-size: 7.0rem !important; margin-bottom: 20px; color: #444;}
+.register .register_wrap li span{font-size: 2.0rem;}
+@media all and (max-width:768px) {
+  .register .register_wrap li{padding: 40px 0px;}
+  .register .register_wrap li i{font-size: 5.0rem !important;}
+  #reg_result{padding: 40px 0px !important;}
+  #reg_result .result_txt br{display: none;}
+  .register .register_wrap li span{font-size: 1.8rem;}
+  .mbskin_box{flex-direction: column-reverse;}
+  .mb_log_form{width: 100%;}
+  .mb_log_cate{width: 100%;}
+}
